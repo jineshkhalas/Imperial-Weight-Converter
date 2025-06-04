@@ -85,6 +85,8 @@ body {
     border: none;
     outline: none;
     background-color: aliceblue;
+    display: flex;
+    align-items: center;
 }
 
 .convert-btn {
@@ -235,4 +237,61 @@ body {
     .calc-container {
         width: 100%;
     }
+}
+
+@media only screen and (max-width: 460px) {
+    .input-weight{
+        padding: 2%;
+        font-size: 100%;
+    }
+    #input-dropdown,
+    .convert-btn {
+        font-size: 80%;
+    }
+     .output-text-container,
+    #output-dropdown {
+        font-size: 90%;
+    }   
+}
+
+@media only screen and (max-width: 420px) {
+    .heading{
+        font-size: 150%;
+    }
+    .calc-heading{
+        font-size: 150%;
+    }
+    .input-weight{
+        padding: 2%;
+        font-size: 95%;
+    }
+    #input-dropdown{
+        width: 100%;
+    }
+    #input-dropdown,
+    .convert-btn {
+        font-size: 70%;
+    }
+     .output-text-container,
+    #output-dropdown {
+        font-size: 85%;
+    }   
+}
+
+@media only screen and (max-width: 370px) {
+    .input-weight{
+        padding: 2%;
+        font-size: 80%;
+    }
+    #input-dropdown{
+        font-size: 60%;
+        width: 90%;
+    }
+    .convert-btn {
+        font-size: 60%;
+    }
+    .output-text-container,
+    #output-dropdown {
+        font-size: 80%;
+    }  
 }
