@@ -295,3 +295,41 @@ body {
         font-size: 80%;
     }  
 }
+@media only screen and (max-width: 320px) {
+    .input-weight{
+        padding: 1%;
+        font-size: 70%;
+    }
+    #input-dropdown{
+        font-size: 60%;
+        width: 100%;
+    }
+    .convert-btn {
+        font-size: 55%;
+    }
+    .output-text-container,
+    #output-dropdown {
+        font-size: 70%;
+    }  
+}
+@media only screen and (max-width: 280px) {
+    .heading, .calc-heading{
+        font-size: 120%;
+    }
+    .input-weight{
+        padding: 0;
+        font-size: 70%;
+        font-size: 60%;
+    }
+    #input-dropdown{
+        font-size: 60%;
+        width: 100%;
+    }
+    .convert-btn {
+        font-size: 50%;
+    }
+    .output-text-container,
+    #output-dropdown {
+        font-size: 60%;
+    }  
+}
