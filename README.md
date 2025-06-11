@@ -19,6 +19,7 @@
 
 ## Feedback
 -If you have any feedback, suggestions, or find a bug, please open an issue or reach out directly.
+<br>
 -Your input is appreciated and helps improve the project.
 
 ## Live Demo
